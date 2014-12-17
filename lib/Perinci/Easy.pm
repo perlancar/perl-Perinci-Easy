@@ -1,5 +1,8 @@
 package Perinci::Easy;
 
+# DATE
+# VERSION
+
 use 5.010001;
 use strict;
 use warnings;
@@ -8,6 +11,11 @@ our @ISA = qw(Exporter);
 our @EXPORT_OK = qw(defsub);
 
 our %SPEC;
+
+$SPEC{':package'} = {
+    v => 1.1,
+    summary => 'Some easy shortcuts for Perinci',
+};
 
 $SPEC{defsub} = {
     v       => 1.1,
@@ -58,10 +66,8 @@ sub defpkg {
 sub defclass {
 }
 
-# VERSION
-
 1;
-# ABSTRACT: Some easy shortcuts for Perinci
+# ABSTRACT:
 
 =head1 SYNOPSIS
 
