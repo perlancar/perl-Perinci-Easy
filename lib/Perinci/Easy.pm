@@ -69,6 +69,8 @@ sub defclass {
 1;
 # ABSTRACT:
 
+=for Pod::Coverage (defvar|defpkg|defclass)
+
 =head1 SYNOPSIS
 
  use Perinci::Easy qw(defsub);
@@ -90,11 +92,6 @@ sub defclass {
 =head1 DESCRIPTION
 
 This module provides some easy shortcuts.
-
-
-=head1 FUNCTIONS
-
-=head2 defsub
 
 
 =head1 SEE ALSO
