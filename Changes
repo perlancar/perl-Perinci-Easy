@@ -1,4 +1,4 @@
-0.29    2015-09-03 (PERLANCAR)
+0.29    2015-09-03  Released-By: PERLANCAR
 
 	- No functional changes.
 
@@ -7,7 +7,7 @@
 	  requirement.
 
 
-0.28     2012-08-10 (SHARYANTO)
+0.28     2012-08-10  Released-By: SHARYANTO
 
          - First release, split to make Perinci dist empty (that dist was a
            growing mixed bag and caused headache in dependencies).
